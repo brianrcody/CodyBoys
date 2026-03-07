@@ -1,0 +1,2 @@
+//>>built
+require({cache:{"bkp/Navigator":function(){define("bkp/Navigator",["dojo/dom","dojo/dom-attr"],function(a,c){return{populateLinks:function(){var b;b=navigator.userAgent.match(/iPhone/i)||navigator.userAgent.match(/iPad/i)||navigator.userAgent.match(/iPod/i)?"mobilePictures.html":"pictures.html";var d=a.byId("picturesLink");c.set(d,"href",b)}}})}}});require(["dojo/i18n"],function(a){a._preloadLocalizations("bkp/layers/nls/navigation",[])});define("bkp/layers/navigation",[],1);

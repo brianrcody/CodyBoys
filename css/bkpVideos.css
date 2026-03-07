@@ -1,0 +1,179 @@
+/* Basic styling / Small desktop / Tablet (portrait) */
+@media only screen {
+    .player {
+        max-width: 600px;
+        max-height: 600px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2em;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        width: 600px;
+        padding-top: 5px;
+    }
+
+    .picker {
+        width: 600px;
+        height: 100px;
+        margin-top:15px;
+        margin-bottom: 25px;
+    }
+
+    .video_picker {
+        padding: 10px;
+        width: 100px;
+        height: 75px;
+    }
+
+    .video_picker > a > img {
+        width: 100px;
+        height: 75px;
+    }
+
+    .picker div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .videoscontainer {
+        min-width: 600px;
+    }
+
+    .videosfooter {
+        min-width: 600px;
+    }
+}
+
+/* Mobile */
+@media only screen
+and (max-width:600px) {
+    .player {
+        max-width: 300px;
+        max-height: 300px;
+        text-align: center;
+    }
+
+    .player > iframe {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .title {
+        font-size: 1.5em;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        width: 300px;
+        padding-top: 5px;
+    }
+
+    .picker {
+        width: 300px;
+        height: 75px;
+        margin-top:15px;
+        margin-bottom: 0px;
+    }
+
+    .video_picker {
+        padding: 2px;
+        width: 100px;
+        height: 75px;
+    }
+
+    .video_picker > a > img {
+        width: 48px;
+        height: 36px;
+    }
+
+    .picker div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .videoscontainer {
+        min-width: 300px;
+    }
+
+    .videosfooter {
+        min-width: 300px;
+    }
+
+}
+
+/* Medium desktop / Tablet (landscape) */
+@media only screen 
+and (min-width : 1024px) {
+}
+
+/* Large desktop */
+@media only screen 
+and (min-width : 1200px) {
+    .player {
+        max-width: 800px;
+        max-height: 800px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2em;
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        width: 800px;
+        padding-top: 5px;
+    }
+
+    .picker {
+        width: 800px;
+        height: 100px;
+        margin-top:15px;
+        margin-bottom: 25px;
+    }
+
+    .video_picker {
+        padding: 5px;
+        width: 148px;
+        height: 111px;
+    }
+
+    .video_picker > a > img {
+        width: 148px;
+        height: 111px;
+    }
+
+    .picker div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .videoscontainer {
+        min-width: 800px;
+    }
+
+    .videosfooter {
+        min-width: 800px;
+    }
+}
+
+/* iPhone */
+/*
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+}
+*/

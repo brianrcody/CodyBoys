@@ -1,0 +1,3 @@
+//>>built
+require({cache:{"bkp/Decoration":function(){define("bkp/Decoration",["dojo/dom","dojo/dom-construct","dojo/io/script"],function(b,d,e){return{decorate:function(){e.get({url:"http://picasaweb.google.com/data/feed/api/user/"+BKPConstants.picasaUserName+"?kind=album&access=visible&alt=json",callbackParamName:"callback",load:function(c){var a="";for(i=0;i<5;i++)a+='<img class="decorationImage" src="',a+=c.feed.entry[i].media$group.media$thumbnail[0].url,a+='">';c=b.byId("decoration");d.create("div",{innerHTML:a},
+c)}})}}})}}});require(["dojo/i18n"],function(b){b._preloadLocalizations("bkp/layers/nls/decoration",[])});define("bkp/layers/decoration",[],1);

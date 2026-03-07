@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.pictureFrameContainer {
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.picture {
+}
